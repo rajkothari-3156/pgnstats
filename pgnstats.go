@@ -13,7 +13,7 @@ import (
 )
 
 //flags
-var pgnPath = flag.String("f", "./pgn/a.pgn", "path of the PGN file")
+var pgnPath = flag.String("f", "Adams.pgn", "path of the PGN file")
 var concurrencyLevel = flag.Int("c", 10, "concurrency level for parsing")
 var outputPath = flag.String("o", "./data/data.json", "output path for JSON file")
 var perf = flag.Bool("p", false, "write profile to ./prof/")
